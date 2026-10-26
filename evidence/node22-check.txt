@@ -1,0 +1,196 @@
+{
+  "result": "PASS",
+  "skills": 50,
+  "names": [
+    "absence-claim-verification",
+    "asgi-wsgi-auth-middleware",
+    "audit-by-claim-unit",
+    "bounded-filesystem-recon",
+    "compaction-continuity-check",
+    "connection-pool-effect-testing",
+    "container-deployment-effect-check",
+    "counterfactual-baseline-testing",
+    "cron-preflight-alert-abort",
+    "dashboard-render-verification",
+    "delegation-contract-verification",
+    "disk-cleanup-quarantine",
+    "duplicate-port-listener-triage",
+    "end-to-end-kill-switch-audit",
+    "executable-definition-of-done",
+    "external-effect-audit-without-execution",
+    "fetch-timeout-effect-validation",
+    "git-history-secret-audit",
+    "independent-dedup-audit",
+    "infrastructure-effect-classification",
+    "isolated-container-cloning",
+    "lightweight-typescript-scanning",
+    "no-leak-claim-audit",
+    "parser-failure-mode-testing",
+    "performance-claim-validation",
+    "pi-cold-extension-loader-check",
+    "pi-extension-fetch-seam-testing",
+    "pi-isolated-environment-tests",
+    "pi-live-npm-tree-canary",
+    "pi-subagent-stall-diagnostics",
+    "pi-supervised-execution",
+    "positive-controls-for-absence",
+    "postgres-capacity-measurement",
+    "postgres-lock-performance-validation",
+    "postgres-per-row-cost-diagnosis",
+    "purpose-vs-literal-compliance",
+    "python-syntax-vs-runtime-proof",
+    "read-only-deployment-inspection",
+    "redaction-before-truncation",
+    "rollback-and-dedup-effect-testing",
+    "safe-browser-research",
+    "safe-git-initialization",
+    "scoped-regression-review",
+    "source-to-sink-property-instrumentation",
+    "stable-prompt-cache-methodology",
+    "traceable-decision-log",
+    "verified-jsonl-extraction",
+    "virtualization-memory-pressure",
+    "virtualization-storage-hygiene",
+    "vm-cpu-contention-triage"
+  ]
+}
+TAP version 13
+# Subtest: accepts matching portable metadata
+ok 1 - accepts matching portable metadata
+  ---
+  duration_ms: 4.963091
+  type: 'test'
+  ...
+# Subtest: rejects missing frontmatter
+ok 2 - rejects missing frontmatter
+  ---
+  duration_ms: 0.231802
+  type: 'test'
+  ...
+# Subtest: rejects missing description
+ok 3 - rejects missing description
+  ---
+  duration_ms: 0.440095
+  type: 'test'
+  ...
+# Subtest: rejects empty description
+ok 4 - rejects empty description
+  ---
+  duration_ms: 0.685036
+  type: 'test'
+  ...
+# Subtest: rejects invalid YAML
+ok 5 - rejects invalid YAML
+  ---
+  duration_ms: 1.185847
+  type: 'test'
+  ...
+# Subtest: rejects duplicate field
+ok 6 - rejects duplicate field
+  ---
+  duration_ms: 0.494749
+  type: 'test'
+  ...
+# Subtest: rejects non-string description
+ok 7 - rejects non-string description
+  ---
+  duration_ms: 0.318354
+  type: 'test'
+  ...
+# Subtest: rejects unapproved tools field
+ok 8 - rejects unapproved tools field
+  ---
+  duration_ms: 0.306374
+  type: 'test'
+  ...
+# Subtest: rejects uppercase name
+ok 9 - rejects uppercase name
+  ---
+  duration_ms: 0.389688
+  type: 'test'
+  ...
+# Subtest: rejects consecutive hyphens
+ok 10 - rejects consecutive hyphens
+  ---
+  duration_ms: 0.613478
+  type: 'test'
+  ...
+# Subtest: rejects leading hyphen
+ok 11 - rejects leading hyphen
+  ---
+  duration_ms: 0.317853
+  type: 'test'
+  ...
+# Subtest: rejects too-long name
+ok 12 - rejects too-long name
+  ---
+  duration_ms: 0.220737
+  type: 'test'
+  ...
+# Subtest: rejects too-long description
+ok 13 - rejects too-long description
+  ---
+  duration_ms: 0.237387
+  type: 'test'
+  ...
+# Subtest: rejects directory mismatch
+ok 14 - rejects directory mismatch
+  ---
+  duration_ms: 0.293773
+  type: 'test'
+  ...
+# Subtest: rejects empty body
+ok 15 - rejects empty body
+  ---
+  duration_ms: 0.508537
+  type: 'test'
+  ...
+# Subtest: rejects missing body title
+ok 16 - rejects missing body title
+  ---
+  duration_ms: 0.184503
+  type: 'test'
+  ...
+# Subtest: rejects non-scalar description
+ok 17 - rejects non-scalar description
+  ---
+  duration_ms: 0.235807
+  type: 'test'
+  ...
+# Subtest: rejects BOM
+ok 18 - rejects BOM
+  ---
+  duration_ms: 0.045623
+  type: 'test'
+  ...
+# Subtest: rejects CRLF
+ok 19 - rejects CRLF
+  ---
+  duration_ms: 0.038951
+  type: 'test'
+  ...
+# Subtest: description limit counts Unicode code points
+ok 20 - description limit counts Unicode code points
+  ---
+  duration_ms: 0.382664
+  type: 'test'
+  ...
+# Subtest: collection discovery rejects empty sets, extra files and symlinks
+ok 21 - collection discovery rejects empty sets, extra files and symlinks
+  ---
+  duration_ms: 1.532541
+  type: 'test'
+  ...
+1..21
+# tests 21
+# suites 0
+# pass 21
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 78.965409
+markdownlint-cli2 v0.19.0 (markdownlint v0.39.0)
+Finding: **/*.md !node_modules !evidence/**
+Linting: 53 file(s)
+Summary: 0 error(s)

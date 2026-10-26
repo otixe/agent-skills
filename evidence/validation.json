@@ -1,0 +1,130 @@
+{
+  "review": "PASS producer checks; NOT independent QA",
+  "skill_candidates": 50,
+  "retained": 50,
+  "excluded": [],
+  "package": {
+    "node": "v22.23.4",
+    "npm": "12.2.1",
+    "ci_fixture": "Fresh candidate copy; npm ci with scripts disabled and additional offline constraint, then npm run check. Remote GitHub CI NOT run.",
+    "tests": {
+      "pass": 21,
+      "fail": 0,
+      "skip": 0
+    },
+    "markdownlint": {
+      "files": 53,
+      "errors": 0
+    },
+    "archive": {
+      "filename": "otixe-agent-skills-0.1.0.tgz",
+      "sha256": "b7f26d4de487a6a4e91841aa63e19946d890ccdf4bf8f3b1a3dadecfbdc3b3e4",
+      "files": 55,
+      "skills": 50,
+      "bytes": 49826,
+      "exact_file_allowlist": true,
+      "all_file_bytes_match_candidate": true,
+      "unpacked_gitleaks_findings": 0
+    },
+    "installed_package": {
+      "local_offline_install": true,
+      "files": 55,
+      "exact_bytes": true,
+      "lifecycle_scripts": false,
+      "runtime_dependencies": 0
+    },
+    "pi_discovery": {
+      "runtime": "Pi 1.4.0",
+      "skills": 50,
+      "diagnostics": 0,
+      "uniqueNames": 50,
+      "promptEntries": 50,
+      "inference": false,
+      "defaultOfficeResources": false
+    },
+    "limitations": [
+      "Producer validation; NOT independent QA.",
+      "Native Pi file discovery/formatting tested, not pi install CLI, hosted inference or every procedure.",
+      "Claude Code/Codex locations verified against documentation, not executed in those hosts.",
+      "No push, npm publication, remote CI, Git history or legal authorship certification."
+    ]
+  },
+  "scanners": {
+    "files": 66,
+    "fleet_identifier_terms_checked": 81,
+    "fleet_and_privacy_findings": 0,
+    "gitleaks_version": "8.30.1",
+    "gitleaks_dir_exit": 0,
+    "gitleaks_findings": 0,
+    "gitleaks_report": [],
+    "scope": "Final candidate files; seal includes evidence records and excludes only its own entry. Textual scan excludes .git/node_modules. Standard gitleaks directory scan also run after seal.",
+    "limitations": "Known-pattern scan, not proof of universal absence. No Git history exists or was scanned. Producer evidence, not independent QA."
+  },
+  "controls": {
+    "gitleaks_positive_control": {
+      "synthetic_generated_canary": true,
+      "real_credential_used": false,
+      "exit": 1,
+      "expected_rule_detected": "github-pat",
+      "findings": 1,
+      "values_not_exported": true
+    },
+    "privacy_positive_controls": {
+      "families": 8,
+      "detected": 8,
+      "fixture_values_not_exported": true
+    },
+    "limitations": "Synthetic detector checks prove tested formats can be seen, not universal privacy coverage."
+  },
+  "source_boundary": {
+    "hash_scope": "Complete getter body as returned, not original private source file or envelope.",
+    "getter_envelopes_with_one_extra_declared_character": 16,
+    "all_returned_bodies_equal_raw_response_after_delimiter": true,
+    "complete_references_read": 8,
+    "reference_files_not_exported": true,
+    "ownership": "No explicit copy notice found during source eligibility review; registral ownership is not legal proof. MIT publication remains separately gated."
+  },
+  "publication": {
+    "push": false,
+    "npm_publish": false,
+    "remote_ci": false,
+    "independent_qa": false
+  },
+  "static_ci": {
+    "strictYaml": true,
+    "shaPinnedActions": 2,
+    "permissions": "contents:read",
+    "node": 22,
+    "softFailures": false,
+    "remoteRun": false
+  },
+  "record_scope": "All original producer check results above describe the pre-wording-update candidate. They are preserved, not represented as freshly re-run by the producer. Current source mapping/file seal include the narrow wording changes below. Independent QA evidence and publication approval are separate.",
+  "wording_update": {
+    "scope": "Three paragraph clarifications only; frontmatter, steps, authorization boundaries and all other skill bytes unchanged. Metadata hashes/sizes and seal refreshed.",
+    "original_file_seal_sha256": "e3dfd6c7aacf3e54f10034153f3445850fc28260ebf42a4a69f5fb668d80ce56",
+    "changes": [
+      {
+        "path": "skills/compaction-continuity-check/SKILL.md",
+        "before_sha256": "87bc11adfdad2e587845770353fb4e49855bd7eabc229bb4de25ce059f3c1bee",
+        "after_sha256": "be132f7beea37c5e3efc77d2c24db4fa4d31a5878bc73a1fe44da6fcb42579a7",
+        "replacements": 1,
+        "all_other_bytes_identical": true
+      },
+      {
+        "path": "skills/counterfactual-baseline-testing/SKILL.md",
+        "before_sha256": "6ff0229a009185e001c31e963033635779e8063099699de83182e7020dc38c63",
+        "after_sha256": "4b4fe88212d8a8d9732ff3ff6539e713266f77865ef229be67ff75661dbb303e",
+        "replacements": 1,
+        "all_other_bytes_identical": true
+      },
+      {
+        "path": "skills/fetch-timeout-effect-validation/SKILL.md",
+        "before_sha256": "5c48966313454ef56cc006f00efa56c0ac548f42df84e28143637b2cd23b0d99",
+        "after_sha256": "71ce0654bfc047939ba68f94ebfecf62f9e3d4e2abe61b6a1b29be9dbb2b013c",
+        "replacements": 1,
+        "all_other_bytes_identical": true
+      }
+    ],
+    "publication_gate": "Not publication approval; no push or npm publish performed."
+  }
+}

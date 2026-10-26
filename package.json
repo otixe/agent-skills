@@ -1,0 +1,33 @@
+{
+  "name": "@otixe/agent-skills",
+  "version": "0.1.0",
+  "description": "Portable English Agent Skills for verification, agents, infrastructure, security, and repeatable methods.",
+  "license": "MIT",
+  "type": "module",
+  "keywords": ["pi-package", "agent-skills", "ai-agents", "claude-code", "codex", "verification", "security"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/otixe/agent-skills.git"
+  },
+  "homepage": "https://github.com/otixe/agent-skills#readme",
+  "bugs": { "url": "https://github.com/otixe/agent-skills/issues" },
+  "files": ["skills/", "README.md", "README.es.md", "LICENSE", "SOURCE-MAP.md"],
+  "pi": {
+    "skills": ["./skills"],
+    "extensions": [],
+    "prompts": [],
+    "themes": []
+  },
+  "publishConfig": { "access": "public" },
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "validate": "node scripts/validate-skills.mjs",
+    "lint": "markdownlint-cli2",
+    "test": "node --test tests/*.test.mjs",
+    "check": "npm run validate && npm run test && npm run lint"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "0.19.0",
+    "yaml": "2.8.1"
+  }
+}

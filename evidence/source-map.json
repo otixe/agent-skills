@@ -1,0 +1,574 @@
+{
+  "hash_algorithm": "SHA-256",
+  "source_hash_scope": "Complete retrieved getter body, not the original private file or metadata envelope.",
+  "candidates": 50,
+  "retained": 50,
+  "excluded": [],
+  "skills": [
+    {
+      "id": "P001",
+      "public_path": "skills/redaction-before-truncation/SKILL.md",
+      "source_sha256": "67bbf876b6c688d98c79a5d6fd7ca5555dc60f9ff5e7de76617f0cd795f0aa28",
+      "public_sha256": "0bc72159a92105273e0931153e841d26376d9c132a360672e4bea0bfa665c7f0",
+      "reference_sha256": [],
+      "characters": 1917,
+      "utf8_bytes": 1917,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P002",
+      "public_path": "skills/git-history-secret-audit/SKILL.md",
+      "source_sha256": "c9148b51fb8bbb78551353d4ea1361e807822d7e5b8e605f337e3467d89e9c47",
+      "public_sha256": "d4685dff83f79bf7c09a7d29791e7a4e0b2a1e6b420d50f9e6cc69465f741b09",
+      "reference_sha256": [],
+      "characters": 2263,
+      "utf8_bytes": 2263,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P003",
+      "public_path": "skills/safe-git-initialization/SKILL.md",
+      "source_sha256": "19538d801642d91b0e28e564850bf1203cf94935c2ff1b8b2c5a9f8ad17b41ed",
+      "public_sha256": "79e8041a0431a0a687095ca2e8de0f34e037127ae1c748c383e52996a88208d1",
+      "reference_sha256": [],
+      "characters": 2097,
+      "utf8_bytes": 2097,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P004",
+      "public_path": "skills/no-leak-claim-audit/SKILL.md",
+      "source_sha256": "2ec82f06aeba973109a98d345956ed328da365a5fd73d7c49558f74e8800d40f",
+      "public_sha256": "1b6c3a507fc0605ee8478dda40ef670c8c429a10c65ac8529c720cc8af908640",
+      "reference_sha256": [],
+      "characters": 2119,
+      "utf8_bytes": 2119,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P005",
+      "public_path": "skills/external-effect-audit-without-execution/SKILL.md",
+      "source_sha256": "5512ceb8eb902ceb32cd97d1bc37f41237b63489c646bd1bf4ee3653cf779283",
+      "public_sha256": "243f1ae5de57c5d9325a5cf18b937c5f7fa5805ab63d785041b54bd3cbbdcae2",
+      "reference_sha256": [],
+      "characters": 2237,
+      "utf8_bytes": 2237,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P006",
+      "public_path": "skills/end-to-end-kill-switch-audit/SKILL.md",
+      "source_sha256": "7a2a53d5ea75b66b0bab5313ae0c1e0184a9cf64bf30b3c0f0a0059595e44e0f",
+      "public_sha256": "deb84d4ac68c85c070a524b4d043b59448082c1e98fd3988d08d2480124ba0f4",
+      "reference_sha256": [],
+      "characters": 2150,
+      "utf8_bytes": 2150,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P007",
+      "public_path": "skills/executable-definition-of-done/SKILL.md",
+      "source_sha256": "897d5616872a05d553ecb4fb612bf61f7b1027715068cd49a99507b67366dce6",
+      "public_sha256": "7781fbe5287f6b86063778faaf83f361e1fdcc8a2e88090b02e670aa4843bfdf",
+      "reference_sha256": [],
+      "characters": 3439,
+      "utf8_bytes": 3439,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P008",
+      "public_path": "skills/counterfactual-baseline-testing/SKILL.md",
+      "source_sha256": "fd3ea322446d5af1781de270dbe7c966678279996241496745e1e908bbcfaa8d",
+      "public_sha256": "4b4fe88212d8a8d9732ff3ff6539e713266f77865ef229be67ff75661dbb303e",
+      "reference_sha256": [],
+      "characters": 3105,
+      "utf8_bytes": 3105,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P009",
+      "public_path": "skills/positive-controls-for-absence/SKILL.md",
+      "source_sha256": "7a0c4d7b240d9e54cbdf97cd33ba27a1bb1a24856ee43d386621e1b77ff94db6",
+      "public_sha256": "98717812d0c7d04520f8cccc99b3a98b071a9252da9521390a0af9d0cc4ef226",
+      "reference_sha256": [],
+      "characters": 2859,
+      "utf8_bytes": 2859,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P010",
+      "public_path": "skills/independent-dedup-audit/SKILL.md",
+      "source_sha256": "999f8570f78ffae1f2fac0e8c59b59af655b548003e1061ae3c266eae94c93c2",
+      "public_sha256": "e103068a01910339302b12d55d1bfb5f9dc841152d1ddc56a339b01313623e45",
+      "reference_sha256": [],
+      "characters": 3479,
+      "utf8_bytes": 3479,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P011",
+      "public_path": "skills/parser-failure-mode-testing/SKILL.md",
+      "source_sha256": "803150bad55210547c274f5a8f8350001c6af8e31482dfbaedc497eda4d72c64",
+      "public_sha256": "b9e04edcef4fb3ac6b091a0949fbf49450d24ff51a3841a4e1dfc27487637992",
+      "reference_sha256": [],
+      "characters": 3226,
+      "utf8_bytes": 3226,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P012",
+      "public_path": "skills/purpose-vs-literal-compliance/SKILL.md",
+      "source_sha256": "8ec749ed181680ba621e8e642dbf82f2331a02f354360c1d0e0fe4f8bcc0a25c",
+      "public_sha256": "b8ba1bd9ff4010a3ec558a0f42c6c2d0529191cb57fc84754a810c7fcb2c5191",
+      "reference_sha256": [],
+      "characters": 3119,
+      "utf8_bytes": 3119,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P013",
+      "public_path": "skills/rollback-and-dedup-effect-testing/SKILL.md",
+      "source_sha256": "068d7a3be8482c2daf69fd9b76966497614e58a5643c975f110d27372efb96a1",
+      "public_sha256": "3e119956c5815ebd45a9bbbdb215a9b5201281900bbdcdcdaf639d8b6d503407",
+      "reference_sha256": [],
+      "characters": 3312,
+      "utf8_bytes": 3312,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P014",
+      "public_path": "skills/scoped-regression-review/SKILL.md",
+      "source_sha256": "09b13ab7e2c401d2bd7e5eaf1cbf17898cbd0ad76422020a6fe520178da861a7",
+      "public_sha256": "fe3e508389f07303990ed5cce9b1b4adcff846c82a7a1798b4ae21501d54dcf9",
+      "reference_sha256": [],
+      "characters": 2973,
+      "utf8_bytes": 2973,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P015",
+      "public_path": "skills/audit-by-claim-unit/SKILL.md",
+      "source_sha256": "4d31ed89bd4073478a4aa52b3ad38a3cb8ad04a1644fbb17f8bc786b10ede7d8",
+      "public_sha256": "da6ceb58275cdb6b9cce9090bde8e9e23646fa64907b922f11ac7bdfd886c7d2",
+      "reference_sha256": [],
+      "characters": 2135,
+      "utf8_bytes": 2135,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P016",
+      "public_path": "skills/performance-claim-validation/SKILL.md",
+      "source_sha256": "af5ca13fd9bf8820a90aa9d2e4346280bc2d5b1c30f8e3e0dddb7bdeb11f86fe",
+      "public_sha256": "0c23a25ae3ef821d153328b0bda846a73c53e53469d329decbafb1a43b06ccee",
+      "reference_sha256": [],
+      "characters": 2029,
+      "utf8_bytes": 2029,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P017",
+      "public_path": "skills/absence-claim-verification/SKILL.md",
+      "source_sha256": "9471020893d2abb7918d67e231dbf29b308d39d9aa4bbdd61e62735178590a17",
+      "public_sha256": "94c6fd536a0fc61733d3aac9927441fb5f314b748532df4f711678d6c9b6abf0",
+      "reference_sha256": [],
+      "characters": 2527,
+      "utf8_bytes": 2527,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P018",
+      "public_path": "skills/dashboard-render-verification/SKILL.md",
+      "source_sha256": "d49728aac692335643a6b4b364a710275c0a9c86d0285e18f56cfc919d80b30b",
+      "public_sha256": "64bc121664884e95c0aeaeaba56d635898d11667290292a1ba11acd37a7732e8",
+      "reference_sha256": [],
+      "characters": 1902,
+      "utf8_bytes": 1902,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P019",
+      "public_path": "skills/python-syntax-vs-runtime-proof/SKILL.md",
+      "source_sha256": "4a2fb8ea331f18470e898328c56f23fa8e8f242a5b18062be4aa97854a314c2a",
+      "public_sha256": "94b2a9102f81f53957abb1b41a411663cb80d5c3d97a2d3c0da50ef97af3df22",
+      "reference_sha256": [],
+      "characters": 2668,
+      "utf8_bytes": 2668,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P020",
+      "public_path": "skills/container-deployment-effect-check/SKILL.md",
+      "source_sha256": "e09730f287aedabe0a9d573357d1faec62698a1721c889ec96ac4d97143711e1",
+      "public_sha256": "4f451f6193212572bb0ce54f84ab104c44a4b8c0309bc55b30eb96c3d2a67275",
+      "reference_sha256": [],
+      "characters": 2735,
+      "utf8_bytes": 2735,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P021",
+      "public_path": "skills/read-only-deployment-inspection/SKILL.md",
+      "source_sha256": "3ef251dbe42d0075eba55973d2ea5692509d19b4910d77471cf5ac59fef2e4a7",
+      "public_sha256": "306b277fd84aa019574528d2d792f3e6610a7c1ca8b6fdf689ed6b54c0a5dc45",
+      "reference_sha256": [],
+      "characters": 1870,
+      "utf8_bytes": 1870,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P022",
+      "public_path": "skills/pi-cold-extension-loader-check/SKILL.md",
+      "source_sha256": "c984b7d9d61ea2d3779cb266c1f5dddfe9118332c522110c9075b70eaad38fdd",
+      "public_sha256": "d1b0bae7990e3803310f5a35dbc6b7968886bdea0e3ceffe2c04a1eab728baab",
+      "reference_sha256": [],
+      "characters": 1958,
+      "utf8_bytes": 1958,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P023",
+      "public_path": "skills/pi-extension-fetch-seam-testing/SKILL.md",
+      "source_sha256": "48fda9e0c06443317e8f900eed0b0c75e793d217d8b8d47038c93d49832a11dc",
+      "public_sha256": "cd1f1304da3da9ff1986ee276f127f3169414859d3a4aa61420e7ecabd78afd7",
+      "reference_sha256": [],
+      "characters": 1863,
+      "utf8_bytes": 1863,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P024",
+      "public_path": "skills/pi-isolated-environment-tests/SKILL.md",
+      "source_sha256": "a103e38f0478602904a45787b4f9e2b95a83e3455cfd7bd67444adacb9366aac",
+      "public_sha256": "9f44df92d101500abfe9ec44c564d58ef7f60831b0c363dd5c0ae9eb7be505d0",
+      "reference_sha256": [],
+      "characters": 1855,
+      "utf8_bytes": 1855,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P025",
+      "public_path": "skills/pi-live-npm-tree-canary/SKILL.md",
+      "source_sha256": "c79d89d26acc93bf1cd72add6bbc5570d4cd7f23b4ad8fafa922d0eedb73c6a2",
+      "public_sha256": "ce9b772ec7843a0f48e8963a84b86b943df412acacff5316ea2e780d86cd967f",
+      "reference_sha256": [
+        "7e789d83d8e954902a9379a16099ec477e7d9f3a989464c43f44883b8b728b38",
+        "0f0cf0ff7ca0b428e4b4177c4704c1f75a3eb8d5e37386e7e1428aa1de531eaa"
+      ],
+      "characters": 2930,
+      "utf8_bytes": 2930,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P026",
+      "public_path": "skills/pi-subagent-stall-diagnostics/SKILL.md",
+      "source_sha256": "a0e3e5c5b0c4f8761bf756e45d93a6142550c68c0e0ddc7c93fa8b2f164f6085",
+      "public_sha256": "4ade6cf396352f0bc8463b65c0e33635728e23bd5447b7d5fa3c746e4ce33b30",
+      "reference_sha256": [],
+      "characters": 1936,
+      "utf8_bytes": 1936,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P027",
+      "public_path": "skills/pi-supervised-execution/SKILL.md",
+      "source_sha256": "2f76100710432ede5a505db06f882ac9fa359c7d2868362bfa2d2b75dfda62fc",
+      "public_sha256": "1f5d482588a545aa712852029c414cc14e963b2a5684f4739ad86d5dec0a0010",
+      "reference_sha256": [],
+      "characters": 2628,
+      "utf8_bytes": 2628,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P028",
+      "public_path": "skills/stable-prompt-cache-methodology/SKILL.md",
+      "source_sha256": "acad2b469ead60a931708fca0b4cee7ee69be9ec2110f2e84894c834b8f94b6b",
+      "public_sha256": "064fd26270ac6a4a19348da69091e449f93be3fb60302ce40bb793fdbfa9d0bb",
+      "reference_sha256": [
+        "86f401bd4cea4ffe49cd2555a09717434e3a19aa644f8a62f71bad9c3f390223"
+      ],
+      "characters": 2013,
+      "utf8_bytes": 2013,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P029",
+      "public_path": "skills/compaction-continuity-check/SKILL.md",
+      "source_sha256": "5a47fd1947d291464943a0af27eb3b1430eff9f029f3565bdfe5bc8957538cbd",
+      "public_sha256": "be132f7beea37c5e3efc77d2c24db4fa4d31a5878bc73a1fe44da6fcb42579a7",
+      "reference_sha256": [],
+      "characters": 2452,
+      "utf8_bytes": 2452,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P030",
+      "public_path": "skills/fetch-timeout-effect-validation/SKILL.md",
+      "source_sha256": "0f1bed48ee978828f95a6d7e14b53c1303b38d2a71dc7d2b0527501b3bda1e9f",
+      "public_sha256": "71ce0654bfc047939ba68f94ebfecf62f9e3d4e2abe61b6a1b29be9dbb2b013c",
+      "reference_sha256": [],
+      "characters": 2523,
+      "utf8_bytes": 2523,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P031",
+      "public_path": "skills/lightweight-typescript-scanning/SKILL.md",
+      "source_sha256": "db883a1d04525477422cd6c552ebc9705636b6c94a176c7c4efb234d3f42beef",
+      "public_sha256": "13555309b0997c16f8cdaa6a808265aa9062ff2bebddeb2bfae64aa6951bb9c8",
+      "reference_sha256": [
+        "1bf134ca4ccd1c2bc41305ee87060f8bdef4de979aa54e963b199c40b1d0cc04"
+      ],
+      "characters": 1966,
+      "utf8_bytes": 1966,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P032",
+      "public_path": "skills/verified-jsonl-extraction/SKILL.md",
+      "source_sha256": "1dab4418023b3be001740cf705fd0c220f0af18af20a3a48fb043b91d8632ae9",
+      "public_sha256": "b53daa6984a6aae17fbaf034bc035cbeab008d1fb2f859bf80f8259b5bbb25be",
+      "reference_sha256": [],
+      "characters": 2079,
+      "utf8_bytes": 2079,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P033",
+      "public_path": "skills/bounded-filesystem-recon/SKILL.md",
+      "source_sha256": "8f4ade80ce660eb39ff5780e28c28cdcf9bcb9a29093c2985917a6cf66cb65f0",
+      "public_sha256": "e6f0782f84eed9d32091eec94e1d59fa26d8a671366a70892e6c0a047df76b31",
+      "reference_sha256": [],
+      "characters": 2142,
+      "utf8_bytes": 2142,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P034",
+      "public_path": "skills/disk-cleanup-quarantine/SKILL.md",
+      "source_sha256": "33187ff0f7028defd0dac24aceeccdd637019e1fcc749fc029a4befa3cab6ceb",
+      "public_sha256": "e1cb8b8133561139d0ad0453159f2e3f3aed79bd34d79a6e3c1141182c89cca8",
+      "reference_sha256": [],
+      "characters": 1957,
+      "utf8_bytes": 1957,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P035",
+      "public_path": "skills/duplicate-port-listener-triage/SKILL.md",
+      "source_sha256": "6ebbe4a11fdf9dfa54b85c1cd0f867aebbb5875c3ea2557901773d6ec662c8b3",
+      "public_sha256": "906f0248d921ba24b9fb351bfd6889fea3d30ebd0abe2b58abff66ff12dec738",
+      "reference_sha256": [],
+      "characters": 3290,
+      "utf8_bytes": 3290,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P036",
+      "public_path": "skills/cron-preflight-alert-abort/SKILL.md",
+      "source_sha256": "02463effd8739e835f5b0f345e468829c8baf8dd692c4b997c8d15a196dbb721",
+      "public_sha256": "0b4e8516e0661b17f0a4cbb4ef5746c21246ca0858aa6a77fc3d599689f5a0d1",
+      "reference_sha256": [],
+      "characters": 3339,
+      "utf8_bytes": 3339,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P037",
+      "public_path": "skills/vm-cpu-contention-triage/SKILL.md",
+      "source_sha256": "cb87bda8ad0dcb918d02fdef65dbddc805586e236f4b68fb3af319dad60af018",
+      "public_sha256": "d732e4523af757ab49aa1d459ea11baaca56e1eb683de639a5fed9d5a322c050",
+      "reference_sha256": [
+        "b8ae0386ebe70f2dced04970a4e8d18d4ab0005239d9995f20f78471a23557f6"
+      ],
+      "characters": 1982,
+      "utf8_bytes": 1982,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P038",
+      "public_path": "skills/virtualization-memory-pressure/SKILL.md",
+      "source_sha256": "5c3b557e7d3655fdde7e9929457e8f559ca1cb179d61b4102cd3b3e8d2df3589",
+      "public_sha256": "80e0a174ece4f94d8bd11a4a6660c365d04df8fc355399d7e17c74ccfddfb8ce",
+      "reference_sha256": [
+        "a72977b9afdad4dfb17c00fe3559c63ee7335c54f22376676c786aa426f76627"
+      ],
+      "characters": 3421,
+      "utf8_bytes": 3421,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P039",
+      "public_path": "skills/isolated-container-cloning/SKILL.md",
+      "source_sha256": "dcb677090bd6614de19036308418f0f12d75d4d7ac7de603ccf7ea66b412183f",
+      "public_sha256": "ce2989ac52839156b990cf48befa9d4f4e3fbb6361a2f20e7a3b861e90ff69b1",
+      "reference_sha256": [],
+      "characters": 1986,
+      "utf8_bytes": 1986,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P040",
+      "public_path": "skills/virtualization-storage-hygiene/SKILL.md",
+      "source_sha256": "742d193b2d6be55a3fd4a0507442e17ac5aa4daa6d072913a5a701f360d40f92",
+      "public_sha256": "0f3d11fc1251aa3da5477e4340efb15de79836145dfe08f5847275746709b55b",
+      "reference_sha256": [],
+      "characters": 3127,
+      "utf8_bytes": 3127,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P041",
+      "public_path": "skills/postgres-lock-performance-validation/SKILL.md",
+      "source_sha256": "7d6cb9a8ac0b5e07d5f9d86df3d8228fbb25951cc77bb98906052d560cc7c87f",
+      "public_sha256": "6d81d549fa4885e86463e28f3cb936b7c5cbe44c99077843cac5b3539e9f3f9a",
+      "reference_sha256": [],
+      "characters": 3408,
+      "utf8_bytes": 3408,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P042",
+      "public_path": "skills/postgres-capacity-measurement/SKILL.md",
+      "source_sha256": "1e88861234019db2e3c695ee2324f00c78f9cfc0389d7d8a856ee6d42370938a",
+      "public_sha256": "e2f742ca2aadaf2606462f4f8e4cb97e487b317f5d93dea7851f02edb009cb5f",
+      "reference_sha256": [],
+      "characters": 2027,
+      "utf8_bytes": 2027,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P043",
+      "public_path": "skills/postgres-per-row-cost-diagnosis/SKILL.md",
+      "source_sha256": "ee875a8ecd32d402cd5c6e7125084d137b06d741489d8f6eff440077c1251d7f",
+      "public_sha256": "a9523ae571eda1637da1492634ebdf9f0bde0967c7e0e7b44091f986c687c813",
+      "reference_sha256": [],
+      "characters": 1976,
+      "utf8_bytes": 1976,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P044",
+      "public_path": "skills/connection-pool-effect-testing/SKILL.md",
+      "source_sha256": "842335ac1301a659683b02cf999d769579947fca22fbab6e35b590c6490a407f",
+      "public_sha256": "f9545b2d22fb37a8c162558707dc5c3e93f7675d490cd5f2fdccd7e11cb7abf6",
+      "reference_sha256": [],
+      "characters": 3930,
+      "utf8_bytes": 3930,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P045",
+      "public_path": "skills/asgi-wsgi-auth-middleware/SKILL.md",
+      "source_sha256": "ccb03a2ea5560bcb77d02ff3a352631ceef38f5798322ca42b372ca58b3db6a4",
+      "public_sha256": "180c90f85794a200d4500690081c30e1060f179627dae6b83641bb0582cd344b",
+      "reference_sha256": [],
+      "characters": 2282,
+      "utf8_bytes": 2282,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P046",
+      "public_path": "skills/safe-browser-research/SKILL.md",
+      "source_sha256": "a1db7f7faf9f278f62ac75a1957c536529685cfb32d9694214d5577bf640c948",
+      "public_sha256": "941383e1357e6e459b82252529dc8c17e965355b6c742c11869ecc2a992aa1b4",
+      "reference_sha256": [],
+      "characters": 1882,
+      "utf8_bytes": 1882,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P047",
+      "public_path": "skills/traceable-decision-log/SKILL.md",
+      "source_sha256": "8354f9dc1b9117415ecfbd80130707209a23a6e5cff42802222af8f30108b9b7",
+      "public_sha256": "4385e40439f32d7bbe706f80b834beef3e3a1e7df9830b46df8dff3266215c4b",
+      "reference_sha256": [],
+      "characters": 3506,
+      "utf8_bytes": 3506,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P048",
+      "public_path": "skills/delegation-contract-verification/SKILL.md",
+      "source_sha256": "c31f51ecdbeb9913cbb09147997bb7fece92f92e06cdb775eb35bb6576541e64",
+      "public_sha256": "2f32c4e42919514ab4bd73d42d3367c0975e142d3ef5af73b5546d0eea842501",
+      "reference_sha256": [],
+      "characters": 3721,
+      "utf8_bytes": 3721,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P049",
+      "public_path": "skills/infrastructure-effect-classification/SKILL.md",
+      "source_sha256": "2890724848e3cab9b4d8fa67a803206e73216e1f106f529d413ae19714bf1558",
+      "public_sha256": "ae4f580c4c1146d5f6e6f9b752e2efcf0052e041913c65e8e181e914f8672457",
+      "reference_sha256": [
+        "5f9fc2b0bcf37b4f1fa7ba72f4cb695660108053b7b9081d0e1e9b15cc0ac34c"
+      ],
+      "characters": 2256,
+      "utf8_bytes": 2256,
+      "decision": "retained",
+      "copy_notice_found": false
+    },
+    {
+      "id": "P050",
+      "public_path": "skills/source-to-sink-property-instrumentation/SKILL.md",
+      "source_sha256": "4017fbf2464445df2e168b7be1497a6d5c427e7b1d8c95011eac98b6fc32fe7c",
+      "public_sha256": "3c60ea22038b87f07e9bbc63b48dff677be43438277cd6e600c09629952064fa",
+      "reference_sha256": [
+        "c64e65198ae918a7c229f4a81959cd6fea06fba1a8b062fc88e922cb22e638b7"
+      ],
+      "characters": 4104,
+      "utf8_bytes": 4104,
+      "decision": "retained",
+      "copy_notice_found": false
+    }
+  ]
+}
